@@ -40,7 +40,6 @@ const Cart = () => {
             <button type="button" className="btn btn-danger" onClick={() => resta(pizza.id)}>-</button>
             <p>{total[pizza.id] || 1}</p>
             <button type="button" className="btn btn-primary" onClick={() => suma(pizza.id)}>+</button>
-            <button type="button" className="btn btn-outline-danger delete">eliminar</button>
           </div>
         </div>
       ))}
